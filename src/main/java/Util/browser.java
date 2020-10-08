@@ -11,7 +11,7 @@ public class browser {
     static WebDriver driver;
 
      public static WebDriver Launch () {
-    	 System.setProperty("webdriver.chrome.driver", ".\\driver\\chromedriver.exe");
+    	 System.setProperty("webdriver.chrome.driver", ".\\Driver\\chromedriver.exe");
     driver=new ChromeDriver();
     driver.get(" https://s1.demo.opensourcecms.com/wordpress/wp-login.php,");
 
